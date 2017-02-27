@@ -2,6 +2,10 @@ html {
     font-family: Palatino, Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
 
+article {
+    background-image: url("u16.jpg");
+}
+
 h1 {
     color: saddlebrown;
 }
