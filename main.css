@@ -5,6 +5,7 @@ html {
 h1 {
     color: yellow;
     background-image: url("wpg.jpg");
+    border-radius: 5px;
     padding-left: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
