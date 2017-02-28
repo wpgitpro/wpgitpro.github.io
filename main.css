@@ -5,4 +5,7 @@ html {
 h1 {
     color: lightgoldenrodyellow;
     background-color: darkviolet;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
