@@ -2,10 +2,6 @@ html {
     font-family: Palatino, Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
 
-body {
-    margin-left: 50px;
-}
-
 h1 {
     color: yellow;
     background-color: darkviolet;
@@ -14,5 +10,6 @@ h1 {
     padding-bottom: 10px;
     padding-top: 10px; 
     border-bottom: 0px;
+    margin: 50px;
 }
 
