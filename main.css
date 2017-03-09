@@ -2,6 +2,10 @@ html {
     font-family: Palatino, Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
 
+body {
+    margin: 10px;
+}
+
 h1 {
     color: yellow;
     background-color: darkviolet;
