@@ -5,7 +5,8 @@ html {
 h1 {
     color: yellow;
     background-color: darkviolet;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     padding-left: 10px;
     padding-bottom: 10px;
     padding-top: 10px; 
