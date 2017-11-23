@@ -2,13 +2,24 @@ html {
     font-family: Palatino, Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
 
-h1 {
-    color: yellow;
-    background-color: darkviolet;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px; 
+.wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
 }
+
+.heading {
+    grid-column: 1/3;
+}
+
+.wrapper > div {
+    background:#eee;
+    padding:1em;
+}
+
+.wrapper > div:nth-child(odd) {
+    background: #ddd;
+}
+
 
