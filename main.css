@@ -1,12 +1,11 @@
 html {
-    font-family: Palatino, Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    /* font-family: Palatino, Cambria, Cochin, Georgia, Times, Times New Roman, serif; */
 }
 
 .wrapper {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
+    grid-gap: 1em;
 }
 
 .heading {
