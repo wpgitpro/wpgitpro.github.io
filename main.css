@@ -10,7 +10,12 @@ html {
 }
 
 .heading {
-    grid-column: 1/4;
+    grid-column: span 3;
+}
+
+
+.wrapper > div:nth-child(2) {
+    grid-column: span 2
 }
 
 .wrapper > div {
