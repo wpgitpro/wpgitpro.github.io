@@ -28,4 +28,8 @@ html {
     background: pink;
 }
 
+.wrapper > div#glcanvas {
+    grid-column: span 2;
+}
+
 
