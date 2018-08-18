@@ -4,7 +4,7 @@ html {
 
 .wrapper {
     display: grid;
-    grid-auto-rows: minmax(200px, auto);
+    grid-auto-rows: minmax(100px, auto);
     grid-template-columns: min-content 1fr 1fr;
     grid-gap: 1em;
 }
@@ -28,8 +28,5 @@ html {
     background: pink;
 }
 
-.wrapper > div#glcanvas {
-    grid-column: span 2;
-}
 
 
