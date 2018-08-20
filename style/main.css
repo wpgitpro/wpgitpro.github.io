@@ -5,7 +5,7 @@ html {
 .wrapper {
     display: grid;
     grid-auto-rows: minmax(100px, auto);
-    grid-template-columns: min-content 1fr 1fr;
+    grid-template-columns: min-content 2fr 1fr;
     grid-gap: 1em;
 }
 
@@ -13,10 +13,9 @@ html {
     grid-column: span 3;
 }
 
-
 .wrapper > div:nth-child(2) {
     grid-column: span 2;
-    grid-row: span 2;
+    grid-row: span 3;
 }
 
 .wrapper > div {
