@@ -18,7 +18,7 @@ html {
 }
 
 .wrapper > div:nth-child(odd) {
-    background: pink;
+    background: khaki;
 }
 
 
