@@ -13,12 +13,12 @@ html {
 }
 
 .wrapper > div {
-    background: seashell;
+    background: violet;
     padding:1em;
 }
 
 .wrapper > div:nth-child(odd) {
-    background: sandybrown;
+    background: thistle;
 }
 
 
