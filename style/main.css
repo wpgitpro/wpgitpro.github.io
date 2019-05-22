@@ -8,11 +8,6 @@ html {
     grid-gap: 1em;
 }
 
-.heading {
-    grid-column: span 2;
-    background: lightcoral;
-}
-
 .wrapper > div {
     background: orchid;
     padding:1em;
@@ -22,5 +17,8 @@ html {
     background: lavender;
 }
 
-
+.heading {
+    grid-column: span 2;
+    background: lightcoral;
+}
 
