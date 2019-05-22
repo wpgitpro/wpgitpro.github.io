@@ -10,6 +10,7 @@ html {
 
 .heading {
     grid-column: span 2;
+    background: lightcoral;
 }
 
 .wrapper > div {
