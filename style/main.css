@@ -1,6 +1,6 @@
 html {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    align-content: center;
+    vertical-align: middle;
     width: 75%;
 }
 
@@ -15,12 +15,12 @@ html {
 }
 
 .wrapper > div {
-    background: orchid;
+    background: antiquewhite;
     padding:1em;
 }
 
 .wrapper > div:nth-child(odd) {
-    background: lavender;
+    background: burlywood;
 }
 
 
