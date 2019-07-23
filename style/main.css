@@ -8,7 +8,8 @@ html {
     grid-gap: 1em;
     margin: auto;
     width: 80%;
-    background: mediumaquamarine;
+    background: paleturquoise;
+    padding: 1em;
 }
 
 .heading {
