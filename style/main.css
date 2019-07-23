@@ -8,8 +8,8 @@ html {
     grid-gap: 1em;
     margin: auto;
     width: 80%;
-    background: antiquewhite;
-    padding: 1em;
+    background: whitesmoke;
+    padding: 2px;
 }
 
 .heading {
@@ -18,7 +18,7 @@ html {
 
 .wrapper > div {
     background: mintcream;
-    padding:1em;
+    padding: 2px;
 }
 
 .wrapper > div:nth-child(odd) {
