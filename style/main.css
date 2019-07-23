@@ -1,6 +1,5 @@
 html {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    max-width: 1024px;
 }
 
 .wrapper {
@@ -8,6 +7,7 @@ html {
     grid-template-columns: 2fr 1fr;
     grid-gap: 1em;
     margin: auto;
+    width: 80%;
 }
 
 .heading {
