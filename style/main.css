@@ -7,7 +7,7 @@ html {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 1em;
-    text-align: center;
+    margin: auto;
 }
 
 .heading {
