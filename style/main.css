@@ -1,5 +1,7 @@
 html {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 1024px;
+    align-self: center;
 }
 
 .wrapper {
@@ -13,12 +15,12 @@ html {
 }
 
 .wrapper > div {
-    background: antiquewhite;
+    background: lavender;
     padding:1em;
 }
 
 .wrapper > div:nth-child(odd) {
-    background: cornflowerblue;
+    background: honeydew;
 }
 
 
