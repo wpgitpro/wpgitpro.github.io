@@ -8,8 +8,8 @@ html {
     grid-gap: 1em;
     margin: auto;
     width: 80%;
-    background: green;
     padding: 1em;
+    background: mintcream;
 }
 
 .heading {
@@ -17,7 +17,6 @@ html {
 }
 
 .wrapper > div {
-    background: mintcream;
     padding: 1em;
 }
 
