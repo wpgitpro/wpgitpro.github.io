@@ -21,7 +21,7 @@ html {
 }
 
 .wrapper > div:nth-child(odd) {
-    background: honeydew;
+    background: aqua;
 }
 
 
