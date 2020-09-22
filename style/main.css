@@ -6,7 +6,7 @@ html {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 1em;
-    margin: auto;
+    // margin: auto;
     padding: 1em;
     background: azure;
 }
