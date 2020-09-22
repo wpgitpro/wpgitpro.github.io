@@ -1,1 +1,2 @@
-var mycolours = ["lightcyan","pink","coral","orange"];
+ var mycolours = ["lightcyan","pink","coral","orange"];
+ 
