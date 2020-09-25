@@ -1,4 +1,4 @@
-var mycolours = ["aqua","lightcyan","cyan","paleturquoise"];
+var mycolours = ["lavender","lightcyan","lemonchiffon","lightcoral"];
 
 function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1) ) + min;
