@@ -7,4 +7,10 @@ function getRndInteger(min, max) {
 document.addEventListener('DOMContentLoaded',function() {
     document.querySelector(".wrapper").style.background = mycolours[getRndInteger(0,3)];
 });
+
+document.addEventListener('DOMContentLoaded',function() {
+    document.querySelector("select").onchange = function() {
+        document.querySelector('#name').style.color = this.value;
+    };
+});
  
