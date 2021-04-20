@@ -4,25 +4,37 @@ html {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 2fr 1fr;
     grid-gap: 1em;
     margin: auto;
     width: 80%;
     padding: 1em;
-    background: mintcream;
+    background:mintcream;
 }
 
 .heading {
-    grid-column: span 2;
+    background:sandybrown;
+}
+
+.body {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 2fr 1fr;
+    padding: 1em;
+    background:tan;
 }
 
 .wrapper > div {
     padding: 1em;
 }
 
-.wrapper > div:nth-child(odd) {
-    background: aqua;
+.body > div {
+    padding: 1em;
 }
+
+#sidebar {
+    background: peru;
+}
+
 
 
 
