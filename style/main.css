@@ -6,7 +6,6 @@ html {
     display: grid;
     grid-gap: 1em;
     margin: auto;
-    width: 80%;
     padding: 1em;
     background:mintcream;
 }
