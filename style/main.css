@@ -1,6 +1,7 @@
 html {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 80%;
+    margin:auto;
 }
 
 .wrapper {
@@ -8,7 +9,7 @@ html {
     grid-gap: 1em;
     margin: auto;
     padding: 1em;
-    background:mintcream;
+    background:blanchedalmond;
 }
 
 .body {
@@ -16,7 +17,7 @@ html {
     grid-gap: 1em;
     grid-template-columns: 2fr 1fr;
     padding: 1em;
-    background:tan;
+    background:burlywood;
 }
 
 .wrapper > div {
@@ -28,7 +29,7 @@ html {
 }
 
 #sidebar {
-    background:wheat;
+    background:blanchedalmond;
 }
 
 
