@@ -8,7 +8,7 @@ html {
     display: grid;
     grid-gap: 1em;
     margin: auto;
-    background:blanchedalmond;
+    background:mintcream;
 }
 
 .body {
@@ -16,6 +16,7 @@ html {
     grid-gap: 1em;
     grid-template-columns: 2fr 1fr;
     background:burlywood;
+    background-color: ;
 }
 
 div {
@@ -24,6 +25,10 @@ div {
 
 #sidebar {
     background:blanchedalmond;
+}
+
+#footer {
+    font-size: small;
 }
 
 
