@@ -1,4 +1,6 @@
-var mycolours = ["lavender","lightcyan","lemonchiffon","khaki","peachpuff"];
+window.onload = init;
+
+var mycolours = ["mintcream","lavenderblush","mistyrose","papayawhip"];
 
 function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1) ) + min;

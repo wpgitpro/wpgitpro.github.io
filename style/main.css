@@ -1,5 +1,7 @@
 html {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 80%;
+    margin:auto;
 }
 
 .wrapper {
@@ -7,16 +9,22 @@ html {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
     margin: auto;
-    padding: 1em;
-    background: azure;
+    background:mintcream;
 }
 
-.wrapper > div {
+.body {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 2fr 1fr;
+    background:burlywood;
+}
+
+div {
     padding: 1em;
 }
 
-.wrapper > div:nth-child(odd) {
-    background: lightsteelblue;
+#sidebar {
+    background:blanchedalmond;
 }
 
 .wrapper > div:nth-child(even) {
