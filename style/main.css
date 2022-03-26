@@ -6,21 +6,18 @@ html {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2em;
     margin: auto;
-    background:mintcream;
+    background: lemonchiffon;
 }
 
 .body {
-    display: grid;
-    grid-gap: 1em;
-    grid-template-columns: 2fr 1fr;
-    background:burlywood;
+    background: cadetblue;
 }
 
 div {
-    padding: 1em;
+    padding: 2em;
 }
 
 #sidebar {
@@ -30,9 +27,15 @@ div {
 .wrapper > div:nth-child(even) {
     background: lightsteelblue;
 }
-.wrapper > div:first-child {
-    background: orange;
+
+.wrapper > div:nth-child(odd) {
+    background: yellow;
 }
+.wrapper > div:first-child {
+    background: burlywood;
+}
+
+
 
 
 
