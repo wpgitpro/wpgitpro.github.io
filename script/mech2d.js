@@ -1,13 +1,20 @@
 //
 
+let rotation = 0;
+let translation = {"t":0,"l":0}
+
+document.addEventListener('click', animation);
+
 document.addEventListener('DOMContentLoaded', () => {
    canvas = document.getElementById('canvas1');
 
    if (canvas.getContext) {
       
       ctx = canvas.getContext('2d');
+      
+      // ctx.transform (1, 0, 0, -1, 0, canvas.height);
 
-      ctx.globalAlpha = 0.5;
+      ctx.globalAlpha = 0.9;
 
       ctx.save();
 
@@ -41,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ctx.strokeStyle = 'blue';
       ctx.strokeRect(50, 50, 50, 50);
 
-   
+      /* 
       ctx.beginPath();
       ctx.moveTo(100, 100);
       ctx.lineTo(200, 100);
@@ -56,6 +63,9 @@ document.addEventListener('DOMContentLoaded', () => {
       // ctx.closePath();
       // ctx.stroke();
       ctx.fill();
+
+      */
+
 
       for (var i = 0; i < 6; i++) {
          for (var j = 0; j < 6; j++) {
@@ -87,8 +97,42 @@ document.addEventListener('DOMContentLoaded', () => {
 
       ctx.font = '48px serif';
       ctx.fillStyle = "black";
-      ctx.fillText('Hello world', 10, 50);
+      ctx.globalAlpha = 1.0;
+      ctx.fillText('Hello world', 200, 50);
+      // ctx.strokeText('Hello world', 200, 50);
 
    }
 
+   othercanvas = document.getElementById('canvas2');
+   if (othercanvas.getContext) {
+      otherctx = othercanvas.getContext('2d');
+      otherctx.fillStyle = "blue";
+      otherctx.fillRect(50, 50, 50, 50);
+   }
+
 });
+
+function animation() {
+   const mytilecolours = ["aquamarine","orange","yellow","blue",'green'];
+   othercanvas = document.getElementById('canvas2');
+   if (othercanvas.getContext) {
+      otherctx = othercanvas.getContext('2d');
+      translation.t += 20;
+      translation.l += 20;
+      // otherctx.transform (1, 0, 0, -1, 0, othercanvas.height);
+      // otherctx.translate(othercanvas.width + 20,othercanvas.height + 20);
+      otherctx.clearRect(0,0,othercanvas.height,othercanvas.width);
+      otherctx.translate(translation.t,translation.l);
+      otherctx.strokeStyle = mytilecolours[getRndInteger(0,4)];
+      otherctx.moveTo(0,0);
+      otherctx.lineTo(50, 50);
+      otherctx.stroke();
+   }
+}
+
+function getRndInteger(min, max) {
+   return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
+
+
+
