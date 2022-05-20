@@ -6,8 +6,8 @@ html {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 2em;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
     margin: auto;
     background: lemonchiffon;
 }
@@ -17,7 +17,7 @@ html {
 }
 
 div {
-    padding: 2em;
+    padding: 1em;
 }
 
 #sidebar {
@@ -34,6 +34,12 @@ div {
 .wrapper > div:first-child {
     background: burlywood;
 }
+
+#topimage {
+    background: lemonchiffon;
+}
+
+
 
 
 

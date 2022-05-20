@@ -1,7 +1,26 @@
 //
 
+var mark = (function() {
+   'use strict';
+
+   var _privateProperty = 'Hello World';
+
+   function _privateMethod() {
+      console.log(_privateProperty);
+   };
+
+   return {
+      publicMethod: function () {
+         _privateMethod();
+      }
+   };
+})();
+
+mark.publicMethod(); // outputs 'Hello World!'
+
+
 let rotation = 0;
-let translation = {"t":0,"l":0}
+let translation = {"t":0,"l":0};
 
 document.addEventListener('click', animation);
 
@@ -95,20 +114,22 @@ document.addEventListener('DOMContentLoaded', () => {
          ctx.fill();
       }
 
-      ctx.font = '48px serif';
+      ctx.font = '24px serif';
       ctx.fillStyle = "black";
       ctx.globalAlpha = 1.0;
-      ctx.fillText('Hello world', 200, 50);
+      ctx.fillText('Width: ' + window.innerWidth, 200, 50);
       // ctx.strokeText('Hello world', 200, 50);
 
    }
 
    othercanvas = document.getElementById('canvas2');
    if (othercanvas.getContext) {
+      var thisheight = parseInt(window.innerHeight * 0.5);
+      othercanvas.style.height = othercanvas.style.width; 
       otherctx = othercanvas.getContext('2d');
       otherctx.fillStyle = "blue";
       otherctx.fillRect(50, 50, 50, 50);
-   }
+   };
 
 });
 
@@ -128,11 +149,11 @@ function animation() {
       otherctx.lineTo(50, 50);
       otherctx.stroke();
    }
-}
+};
 
 function getRndInteger(min, max) {
    return Math.floor(Math.random() * (max - min + 1) ) + min;
-}
+}; 
 
 
 
