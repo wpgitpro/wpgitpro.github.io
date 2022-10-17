@@ -18,9 +18,9 @@ document.addEventListener('DOMContentLoaded', () => {
             direction = "up";
         }
         if (direction == "up") {
-            size = size + 1;
+            size = size + 2;
         } else {
-            size = size - 1;
+            size = size - 2;
         }
         // alert(document.body.style.fontSize);
         document.body.style.fontSize = size + 'px';
