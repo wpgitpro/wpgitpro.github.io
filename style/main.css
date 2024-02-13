@@ -32,7 +32,7 @@ div {
     background: yellow;
 }
 .wrapper > div:first-child {
-    background: goldenyellow;
+    background: citrine;
 }
 
 #topimage {
