@@ -21,7 +21,7 @@ div {
 }
 
 #sidebar {
-    background:blanchedalmond;
+    background: lemonchiffon;
 }
 
 .wrapper > div:nth-child(even) {
@@ -32,7 +32,7 @@ div {
     background: yellow;
 }
 .wrapper > div:first-child {
-    background: burlywood;
+    background: springbud;
 }
 
 #topimage {
