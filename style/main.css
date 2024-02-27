@@ -4,6 +4,10 @@ html {
     margin:auto;
 }
 
+body {
+    background: cadetblue;
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -12,12 +16,15 @@ html {
     background: linen;
 }
 
-.body {
-    background: cadetblue;
+.wrapper > div:nth-child(even) {
+    background: lightsteelblue;
 }
 
-div {
-    padding: 1em;
+.wrapper > div:nth-child(odd) {
+    background: bone;
+}
+.wrapper > div:first-child {
+    background: linen;
 }
 
 #sidebar {
@@ -44,17 +51,6 @@ div {
   flex: 0 1 auto; /* Default */
   list-style-type: none;
   background: white;
-}
-
-.wrapper > div:nth-child(even) {
-    background: lightsteelblue;
-}
-
-.wrapper > div:nth-child(odd) {
-    background: bone;
-}
-.wrapper > div:first-child {
-    background: linen;
 }
 
 #topimage {
