@@ -43,8 +43,8 @@ div {
 #menu > ul {
     list-style-type: none;  
     display: flex;
-    // align-items: stretch; /* Default */   
-    justify-content: start;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
     background: lightsteelblue;
     margin: 0;
