@@ -58,6 +58,11 @@ div {
   background: white;
 }
 
+#menu > li:hover {
+    background: steelblue;
+    color: white;
+}
+
 
 
 
