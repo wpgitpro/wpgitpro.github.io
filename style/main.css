@@ -31,26 +31,21 @@ div {
 }
 
 #menu > ul {
-    list-style-type: none;
-    text-align: justify;
+    list-style-type: none;  
+    display: flex;
+    align-items: stretch; /* Default */   
+    justify-content: space-between;
     width: 100%;
-    background: #cacaca;
+    background: blue;
     margin: 0;
     padding: 0;
 }
 
 #menu > li {
-  display: inline-block;
+  display: block;
+  flex: 0 1 auto; /* Default */
   list-style-type: none;
-  background: #fafafa;
-  padding: 0; /* Adjust padding as needed */
-}
-
-/* Pseudo-element to ensure content overflows the first row */
-#menu > li::after {
-  content: "";
-  display: inline-block;
-  width: 100%;
+  background: white;
 }
 
 .wrapper > div:nth-child(even) {
