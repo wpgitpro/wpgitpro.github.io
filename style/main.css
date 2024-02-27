@@ -25,17 +25,17 @@ div {
 }
 
 #menu {
-    background: blue;
-    color: white;
+    background: lightsteelblue;
     padding: 1em;
+    width: 100%;
 }
 
 #menu > ul {
     list-style-type: none;  
     display: flex;
-    align-items: stretch; /* Default */   
-    justify-content: space-between;
-    width: 100%;
+    // align-items: stretch; /* Default */   
+    // justify-content: space-between;
+    // width: 100%;
     background: blue;
     margin: 0;
     padding: 0;
@@ -43,9 +43,9 @@ div {
 
 #menu > li {
   display: block;
-  flex: 0 1 auto; /* Default */
+  // flex: 0 1 auto; /* Default */
   list-style-type: none;
-  background: white;
+  // background: white;
 }
 
 .wrapper > div:nth-child(even) {
