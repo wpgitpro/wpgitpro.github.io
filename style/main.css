@@ -28,6 +28,10 @@ div {
     padding: 1em;
 }
 
+#menu > ul {
+    list-style-type: none;
+}
+
 .wrapper > div:nth-child(even) {
     background: lightsteelblue;
 }
