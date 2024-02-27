@@ -32,6 +32,25 @@ div {
 
 #menu > ul {
     list-style-type: none;
+    text-align: justify;
+    width: 100%;
+    background: #cacaca;
+    margin: 0;
+    padding: 0;
+}
+
+#menu > li {
+  display: inline-block;
+  list-style-type: none;
+  background: #fafafa;
+  padding: 0; /* Adjust padding as needed */
+}
+
+/* Pseudo-element to ensure content overflows the first row */
+#menu > li::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
 }
 
 .wrapper > div:nth-child(even) {
