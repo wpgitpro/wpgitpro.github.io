@@ -8,6 +8,10 @@ body {
     background: cadetblue;
 }
 
+div {
+    padding: 1;
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
