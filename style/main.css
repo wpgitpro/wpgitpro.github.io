@@ -9,7 +9,7 @@ html {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
     margin: auto;
-    background: lemonchiffon;
+    background: linen;
 }
 
 .body {
@@ -21,7 +21,7 @@ div {
 }
 
 #sidebar {
-    background: lemonchiffon;
+    background: bone;
 }
 
 .wrapper > div:nth-child(even) {
@@ -29,14 +29,14 @@ div {
 }
 
 .wrapper > div:nth-child(odd) {
-    background: yellow;
+    background: bone;
 }
 .wrapper > div:first-child {
-    background: citrine;
+    background: linen;
 }
 
 #topimage {
-    background: lemonchiffon;
+    background: tan;
 }
 
 
