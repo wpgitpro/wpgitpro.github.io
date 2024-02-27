@@ -40,7 +40,7 @@ div {
     background: lightsteelblue;
 }
 
-#menu > ul {
+#menu ul {
     list-style-type: none;  
     display: flex;
     align-items: stretch; /* Default */   
@@ -51,14 +51,14 @@ div {
     padding: 0;
 }
 
-#menu > li {
+#menu ul li {
   display: block;
   flex: 0 1 auto; /* Default */
   list-style-type: none;
   background: white;
 }
 
-#menu > li:hover {
+#menu ul li:hover {
     background: steelblue;
     color: white;
     font-weight: bold;
