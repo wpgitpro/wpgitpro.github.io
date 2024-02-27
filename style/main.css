@@ -42,10 +42,10 @@ div {
 
 #menu > ul {
     list-style-type: none;  
-    display: flex;
+    display: block;
     // align-items: stretch; /* Default */   
     // justify-content: stretch;
-    // width: 100%;
+    width: 100%;
     background: lightsteelblue;
     margin: 0;
     padding: 0;
