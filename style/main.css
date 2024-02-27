@@ -27,7 +27,6 @@ div {
 #menu {
     background: lightsteelblue;
     padding: 1em;
-    width: 100%;
 }
 
 #menu > ul {
@@ -43,9 +42,9 @@ div {
 
 #menu > li {
   display: block;
-  // flex: 0 1 auto; /* Default */
+  flex: 0 1 auto; /* Default */
   list-style-type: none;
-  // background: white;
+  background: white;
 }
 
 .wrapper > div:nth-child(even) {
