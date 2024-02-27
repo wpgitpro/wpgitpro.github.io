@@ -26,7 +26,6 @@ div {
 
 #menu {
     background: lightsteelblue;
-    padding: 1em;
 }
 
 #menu > ul {
@@ -34,7 +33,7 @@ div {
     display: flex;
     align-items: stretch; /* Default */   
     justify-content: space-evenly;
-    width: 100%;
+    // width: 100%;
     background: lightsteelblue;
     margin: 0;
     padding: 0;
