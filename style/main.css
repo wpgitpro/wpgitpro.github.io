@@ -44,7 +44,7 @@ div {
     list-style-type: none;  
     display: flex;
     // align-items: stretch; /* Default */   
-    justify-content: space-between;
+    justify-content: stretch;
     // width: 100%;
     background: lightsteelblue;
     margin: 0;
