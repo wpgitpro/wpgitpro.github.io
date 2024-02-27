@@ -24,6 +24,10 @@ div {
     background: bone;
 }
 
+#menu {
+    padding: 1em;
+}
+
 .wrapper > div:nth-child(even) {
     background: lightsteelblue;
 }
