@@ -1,7 +1,7 @@
 html {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 80%;
-    margin:auto;
+    margin: auto;
 }
 
 body {
@@ -27,6 +27,7 @@ div {
 .wrapper > div:nth-child(odd) {
     background: bone;
 }
+
 .wrapper > div:first-child {
     background: linen;
 }
