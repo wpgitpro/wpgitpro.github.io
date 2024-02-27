@@ -25,6 +25,8 @@ div {
 }
 
 #menu {
+    background: blue;
+    color: white;
     padding: 1em;
 }
 
