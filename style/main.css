@@ -45,17 +45,16 @@ div {
     display: flex;
     align-items: stretch; /* Default */   
     justify-content: space-evenly;
-    // width: 100%;
+    width: 100%;
     background: lightsteelblue;
     margin: 0;
     padding: 0;
 }
 
 #menu li {
-  display: block;
-  flex: 0 1 auto; /* Default */
-  list-style-type: none;
-  background: white;
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
 }
 
 #menu li:hover {
