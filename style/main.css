@@ -44,11 +44,11 @@ div {
     list-style-type: none;  
     display: flex;
     align-items: stretch; /* Default */   
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
     background: lightsteelblue;
-    margin: 0;
-    padding: 0;
+    // margin: 0;
+    // padding: 0;
 }
 
 #menu li {
