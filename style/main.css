@@ -42,9 +42,9 @@ div {
 
 #menu > ul {
     list-style-type: none;  
-    display: block;
+    display: flex;
     // align-items: stretch; /* Default */   
-    // justify-content: stretch;
+    justify-content: start;
     width: 100%;
     background: lightsteelblue;
     margin: 0;
