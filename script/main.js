@@ -7,28 +7,25 @@ function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
 
-/*
-document.addEventListener('DOMContentLoaded', () => {
+// document.addEventListener('DOMContentLoaded', () => {
     // document.querySelector(".wrapper").style.background = mycolours[getRndInteger(0,4)];
     // document.getElementById("sidebar").style.background = mytilecolours[getRndInteger(0,4)];
-    document.querySelector("h1").addEventListener('click', ()=> {
-        document.querySelector('.wrapper').style.backgroundColor = mycolours[getRndInteger(0,4)];
-        if (size > 20) {
-            direction = "down";
-        } else if (size < 12) {
-            direction = "up";
-        }
-        if (direction == "up") {
-            size = size + 2;
-        } else {
-            size = size - 2;
-        }
+    // document.querySelector("h1").addEventListener('click', ()=> {
+    //    document.querySelector('.wrapper').style.backgroundColor = mycolours[getRndInteger(0,4)];
+    //    if (size > 20) {
+    //        direction = "down";
+    //    } else if (size < 12) {
+    //        direction = "up";
+    //    }
+    //    if (direction == "up") {
+    //        size = size + 2;
+    //    } else {
+    //        size = size - 2;
+    //    }
         // alert(document.body.style.fontSize);
-        document.body.style.fontSize = size + 'px';
-    });
-});
-
-*/
+    //    document.body.style.fontSize = size + 'px';
+    // });
+// });
 
 var mark = (function() {
     'use strict';
