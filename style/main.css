@@ -61,6 +61,7 @@ div {
 #menu > li:hover {
     background: steelblue;
     color: white;
+    font-weight: bold;
 }
 
 
