@@ -28,9 +28,9 @@ div {
     background: bone;
 }
 
-.wrapper > div:first-child {
-    background: linen;
-}
+// .wrapper > div:first-child {
+//     background: linen;
+// }
 
 #sidebar {
     background: bone;
