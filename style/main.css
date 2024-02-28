@@ -54,7 +54,7 @@ div {
 
 #menu li {
     display: block;
-    flex: 0 1 auto; /* Default */
+    // flex: 0 1 auto; /* Default */
     list-style-type: none;
     padding: 1.2em;
 }
