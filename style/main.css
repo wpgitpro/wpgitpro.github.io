@@ -8,9 +8,9 @@ body {
     background: bone;
 }
 
-// div {
-//     padding: 1em;
-// }
+div {
+    padding: 1em;
+}
 
 .wrapper {
     display: grid;
