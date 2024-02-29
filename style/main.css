@@ -8,9 +8,9 @@ body {
     background: bone;
 }
 
-div {
-    padding: 1em;
-}
+// div {
+//     padding: 1em;
+// }
 
 .wrapper {
     display: grid;
@@ -43,20 +43,19 @@ div {
     align-items: start;
     justify-content: space-around;
     width: 100%;
-    background: lightgreen;
+    background: lightsteelblue;
     margin: 0;
     padding: 0;
 }
 
 #menu li {
     display: block;
-    flex: 0 1 auto; /* Default */
     list-style-type: none;
     padding: 1.2em;
 }
 
 #menu li:hover {
-    background: blue;
+    background: steelblue;
     color: white;
     font-weight: bold;
 }
