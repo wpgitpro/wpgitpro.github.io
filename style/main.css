@@ -45,7 +45,7 @@ div {
     list-style-type: none;  
     display: flex;
     align-items: start;
-    justify-content: space-around;
+    // justify-content: space-around;
     width: 100%;
     background: lightsteelblue;
     margin: 0;
@@ -54,7 +54,7 @@ div {
 
 #menu li {
     display: block;
-    flex: 0 1 auto; /* Default */
+    // flex: 0 1 auto; /* Default */
     list-style-type: none;
     padding: 1.2em;
 }
