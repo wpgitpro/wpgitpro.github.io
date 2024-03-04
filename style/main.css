@@ -52,7 +52,7 @@ div {
     display: block;
     list-style-type: none;
     padding: 1.2em;
-    align: center;
+    text-align: center;
     width: 50%;
 }
 
