@@ -1,6 +1,5 @@
 
 html {
-   font-family: Palatino, Cambria, Baskerville, Georgia, serif;
 }
 
 body {
@@ -21,8 +20,8 @@ div #sidebar {
 
 #outershell {
     margin: auto;
-	max-width: 960px;
-	min-width: 680px;
+    max-width: 960px;
+    min-width: 680px;
 }
 
 #myheader {
@@ -95,9 +94,9 @@ div #sidebar {
 } 
 
 #footer {
-	clear: both;
+    clear: both;
     padding: 5px 10px 5px 10px; 
-	background-color: midnightblue;
+    background-color: midnightblue;
     color: lightblue;
     font-style: italic;
     font-size: small;
@@ -112,9 +111,9 @@ div #sidebar {
 }
 
 #app {
-	clear: both;
+    clear: both;
     padding: 5px 10px 5px 10px; 
-	background-color: green;
+    background-color: green;
     color: lightgoldenrodyellow;
     font-size: small;
 }
