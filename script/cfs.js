@@ -7,7 +7,7 @@ window.onload = refreshTime;
 function init() {
     let ele = document.querySelector("#footer");
     // const content = ele.innerHTML;
-    const content = "&copy; Carels Financial Services Inc."
+    const content = "&copy; General Financial Services Inc."
     const sdate = getDateText();
     ele.innerHTML = `${content} - ${sdate}`;
 }
@@ -23,7 +23,7 @@ function getDateText() {
 */
 
 function refreshTime() {
-  const content = "&copy; Carels Financial Services Inc."
+  const content = "&copy; General Financial Services Inc."
   const timeDisplay = document.getElementById("footer");
   let timer = setInterval(function() {
      'use strict';
