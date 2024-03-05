@@ -1,1 +1,128 @@
 
+html {
+   font-family: Palatino, Cambria, Baskerville, Georgia, serif;
+}
+
+body {
+   font-size: small;
+}
+
+div #sidebar {
+    display: block;
+}
+
+.element {
+  background: linear-gradient(
+    to bottom,
+    midnightblue, 
+    transparent
+  );
+}
+
+#outershell {
+    margin: auto;
+	max-width: 960px;
+	min-width: 680px;
+}
+
+#cfsheader {
+   background-color: midnightblue;	
+   background-position: center;
+   padding-top: 1px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+   color: white;
+   border-radius: 10px 10px 0 0;
+}
+
+#cfsheader:hover {
+    animation: header 4s;
+    animation-fill-mode: forwards;
+}
+
+#cfstitle {
+   font-size: xx-large;
+   font-weight: bold;
+   font-variant: small-caps;
+   margin-bottom: 0;
+}
+
+#tagline {
+   font-size: medium;
+   font-style: italic;
+   margin-top: 0;
+   color: lightblue;
+}
+
+#innercontainer {
+    padding: 0px;
+    background-color: lightskyblue;
+}
+
+#spacer {
+	background-color: gray;
+    width:  100%;
+}
+
+#main {
+   font-size:  medium;
+   float: left;
+   width: 68%;
+   background-color: white;
+   padding: 1%;
+}
+
+#main h3 {
+	background-color: gray;
+	color: white;
+	padding: 5px;
+}
+
+#main div:hover {
+    background-color: whitesmoke;
+}
+
+#sidebar {
+   float: right;
+   width: 28%;
+   padding: 1%;
+   font-size: small;
+}
+
+#sidebar img {	
+    caption-side: bottom;	
+    filter: grayscale(100%);
+} 
+
+#footer {
+	clear: both;
+    padding: 5px 10px 5px 10px; 
+	background-color: midnightblue;
+    color: lightblue;
+    font-style: italic;
+    font-size: small;
+}
+
+.caption {
+	font-style: italic;
+}
+
+.name {	
+	font-weight: bold;
+}
+
+#app {
+	clear: both;
+    padding: 5px 10px 5px 10px; 
+	background-color: green;
+    color: lightgoldenrodyellow;
+    font-size: small;
+}
+
+/* 
+@keyframes header {
+    0%   {background-color: midnightblue; color: white;}
+    50% {background-color: lightgreen; color: pink;}
+    100% {background-color: darkgreen; color: red;}
+}
+*/
